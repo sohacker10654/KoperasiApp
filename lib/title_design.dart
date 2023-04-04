@@ -4,6 +4,40 @@ import 'dart:io';
 import 'package:carousel_indicator/carousel_indicator.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 
+class Design extends StatefulWidget {
+  const Design();
+
+  @override
+  State<Design> createState() => _DesignState();
+}
+
+class _DesignState extends State<Design> {
+  var _title = "Koperasi App";
+  int pageIndex = 0;
+
+  MaterialColor mycolor = MaterialColor(
+    Color.fromRGBO(133, 194, 64, 1).value,
+    <int, Color>{
+      50: Color.fromRGBO(133, 194, 64, 0.1),
+      100: Color.fromRGBO(133, 194, 64, 0.2),
+      200: Color.fromRGBO(133, 194, 64, 0.3),
+      300: Color.fromRGBO(133, 194, 64, 0.4),
+      400: Color.fromRGBO(133, 194, 64, 0.5),
+      500: Color.fromRGBO(133, 194, 64, 0.6),
+      600: Color.fromRGBO(133, 194, 64, 0.7),
+      700: Color.fromRGBO(133, 194, 64, 0.8),
+      800: Color.fromRGBO(133, 194, 64, 0.9),
+      900: Color.fromRGBO(133, 194, 64, 1),
+    },
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
+}
+
 Widget titleSection = Container(
   //height: 100,
   alignment: Alignment.center,

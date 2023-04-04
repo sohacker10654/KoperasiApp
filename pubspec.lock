@@ -25,6 +25,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.6"
+  carousel_slider:
+    dependency: "direct main"
+    description:
+      name: carousel_slider
+      sha256: "9c695cc963bf1d04a47bd6021f68befce8970bcd61d24938e1fb0918cf5d9c42"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.2.1"
   characters:
     dependency: transitive
     description:
@@ -285,6 +293,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  virtualcreditcard:
+    dependency: "direct main"
+    description:
+      name: virtualcreditcard
+      sha256: "673b3561cff47b8c0e1ebcbb6b17ee29cdbe27a101e3fdb44c5713f0376c490c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
 sdks:
   dart: ">=2.19.5 <3.0.0"
   flutter: ">=1.20.0"

@@ -11,6 +11,7 @@ import 'package:koperasi/header_design.dart';
 import 'package:koperasi/title_design.dart';
 import 'package:koperasi/body_design.dart';
 import 'package:koperasi/buttom_design.dart';
+import 'package:koperasi/title_design_card.dart';
 
 void main() {
   runApp(MyApp());
@@ -112,7 +113,7 @@ class _MyAppState extends State<MyApp> {
               child: ListView(
                 children: <Widget>[
                   headerSection,
-                  titleSection,
+                  titleSection_card,
                   buttonSection,
                   courseSection
                 ],
