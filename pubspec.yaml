@@ -60,6 +60,8 @@ flutter:
     - images/slide_1.PNG
     - images/slide_2.PNG
     - images/slide_3.PNG
+    - images/LOGO_KOPERASI.png
+    - images/avatar_man.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see

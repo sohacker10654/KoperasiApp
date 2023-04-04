@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'dart:io';
 
 void main() {
   runApp(MyApp());
@@ -7,6 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   var _title = "Koperasi App";
+  var _myprofile = File('images\LOGO_KOPERASI.png');
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +18,39 @@ class MyApp extends StatelessWidget {
       title: _title,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(_title),
+          leading: Container(
+            width: 40,
+            child: Image.asset('images/avatar_man.png'),
+          ),
+          centerTitle: true,
+          title: Container(
+            child: Text('KOPERASI'),
+          ),
+          actions: [
+            Container(
+              //width: 30,
+              child: IconButton(
+                onPressed: () {},
+                icon: IconButton(
+                  icon: Icon(Icons.add_alert_outlined),
+                  tooltip: 'แจ้งเตือน',
+                  onPressed: () {
+                    print("แจ้งเตือน");
+                  },
+                ),
+              ),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: IconButton(
+                icon: Icon(Icons.logout),
+                tooltip: 'Logout',
+                onPressed: () {
+                  print("LOGOUT");
+                },
+              ),
+            ),
+          ],
         ),
         body: ListView(
           children: <Widget>[
